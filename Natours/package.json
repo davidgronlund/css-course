@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.10.0"
+  },
+  "scripts": {
+    "start": "live-server --port=8999",
+    "build:css": "node-sass --include-path scss scss/main.scss css/main.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
